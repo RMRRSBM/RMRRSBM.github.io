@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Voyage Parisien</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+    </style>
+  </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    
+<img class="eifeltoren" src="d.jpeg" alt="toren" style="height: 60px; width: 60px;" >
+<style>
+.eifeltoren {
+ position: relative; left: -3.7957cm;
+ }
+
+ .voyage-parisien {
+ position: relative; left: 1.995cm;}
+  </style>
+
+<a href="index.html" class="w3-bar-item w3-button w3-wide  voyage-parisien" style="font-family: ariel; font-weight: bolder; letter-spacing: 0.1px; font-size: 125%;">Voyage parisien</a>
+<!-- Right-sided navbar links -->
+<div class="w3-right w3-hide-small">
+  <a href="about.html" class="w3-bar-item w3-button"><i class="fa fa-info"></i> INFORMATION</a>
+  <a href="employees.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> EMPLOYÉS</a>
+  <!-- <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a> -->
+  <a href="pricing.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> FAIRE AUX QUESTIONS</a>
+  <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> MESSAGE</a>
+</div>
+<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+  <i class="fa fa-bars"></i>
+</a>
+</div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">FERMER ×</a>
+<a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">INFORMATION</a>
+<a href="employees.html" onclick="w3_close()" class="w3-bar-item w3-button">EMPLOYÉS</a>
+<!-- <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a> -->
+<a href="pricing.html" onclick="w3_close()" class="w3-bar-item w3-button">FAIRE AUX QUESTIONS</a>
+<a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">MESSAGE</a>
+</nav>
+
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+
+
+
+<body>
+  <div class="padding" style="padding-left: 1cm; position: relative; top: 3cm;">
+<h70 style="font-size: large; font-weight: bold;">Il y a beaucoup joli activités et beaux monuments où vous à pouvez aller, <br>mais la question est: "On va faire quoi?".</h70><br>
+<p71>Nous avons cinq activités et sites touristiques où vous á pouvez aller. </p71><br><br>
+<h72 style="font-size: large;">Activités:</h72><br>
+<h73 style="font-size: large; font-weight: bold;">- Croisière sur la Seine</h73><br>
+<p74>Regardez les sites touristiques de Paris lors une croisière sur la Seine.<br> Cette croisière passe par le centre de Paris. Il y a des commentaires audio <br>et vous apprendez plus sur des sites touristiques tels que la Tour Eiffel et la Notre-Dame.</p74><br><br>
+<h75 style="font-size: large; font-weight: bold;">- Entrée au palais et aux jardins de Versailles</h75><br>
+<p76>Visitez le grand palais de Louis XIV, admirez la propiété, les célèbres jardins ou le spectacle<br> des fontaines.</p76><br><br>
+<h77 style="font-size: large; font-weight: bold;">- Visiter Disneyland Paris</h77><br>
+<p78>Se regalez d'un moment magique au parc Disneyland, recontrez Mickey Mouse<br> et Donald Duck! Visitez différentes attractions et décrouvrez le parc.</p78><br><br>
+<h79 style="font-size: large; font-weight: bold;">- Billet Opera Garnier</h79><br>
+<p80>décrouvrez célèbres Opéra à Paris. Visiter et admirer la plus grande salle d'opéra en Europe.</p80><br><br>
+<h81 style="font-size: large; font-weight: bold;">-Tour de découverte Tootbus</h81><br>
+<p82>décrouvrez Paris sur un bus. Apprenez plus sur les sites touristiques de la ville avec<br> un audioguide pour adultes et enfants, avec des arrêts dans de beaux sites touristiques</p82><br><br>
+<h83 style="font-size: large; font-weight: bold;">Sites touristiques:</h83><br>
+<h84 style="font-size: large; font-weight: bold;">- Musée du Louvre</h84><br>
+<p85>Le Louvre est le Musée le plus visité  au monde et a de nombreuses peintures et oevres d'art,<br> de la préhistoire à l'époque moderne. </p85><br><br>
+<h86 style="font-size: large; font-weight: bold;">- Tour Eiffel</h86><br>
+<p87>La Tour Eiffel est le monument le plus célèbre et le plus visité de France, et devient aussi appelée<br> la Dame de Fer.</p87><br><br>
+<h88 style="font-size: large; font-weight: bold;">- Musée d'Orsay</h88><br>
+<p89>Le musée d'Orsay à Paris est un musée d'art qui expose l'histoire de l'art occidental entre 1848 et 1914.</p89><br><br>
+<h90 style="font-size: large; font-weight: bold;">- Arc de Triomphe</h90><br>
+<p91>L'Arc de Triomphe est un grand et célèbre bâtiment au milieu d'une place. Il a construit au 19e siècle.<br> est un grand et célèbre bâtiment au milieu d'une place. Il a construit au 19e siècle.</p91><br><br>
+<h92 style="font-size: large; font-weight: bold;">- Centre Georges Pompidou</h92><br>
+<p93>Le Centre Georges Pompidou est un grand centre d'exposition d'art moderne. Le bâtiment a ouvert en février 1977. </p93><br><br>
+<h94 style="font-size: large; font-weight: bold;">Ces étaient quelques suggestions, mais cela dépend de vous oú vous aller.</h94><br>
+<h95 style="font-size: large; font-weight: bold;">Grand plaisir à Paris!</h95><br><br>
+</div>
+</body>
+<body>
+  <video width="720cm" height="500cm" controls poster="images/video-abstract.png" class="video">
+    <source src="Ontdek Parijs in één minuut.mp4" type="video/mp4">
+    Installeer een nieuwere versie van je browser als je deze video wilt bekijken.
+    </video>
+    <style>
+      .video {
+        float: right;
+        position: relative; bottom: 31.5cm;
+        background-color: black;
+        position: relative; right: 1cm;
+      }
+    </style>
+  </body>
+  </html>
