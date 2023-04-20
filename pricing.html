@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Voyage Parisien</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("wallpaper.jpeg");
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+    </style>
+  </head>
+<body>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    
+<img class="eifeltoren" src="d.jpeg" alt="toren" style="height: 60px; width: 60px;" >
+<style>
+.eifeltoren {
+ position: relative; left: -3.7957cm;
+ }
+
+ .voyage-parisien {
+ position: relative; left: 1.995cm;}
+  </style>
+
+<a href="index.html" class="w3-bar-item w3-button w3-wide  voyage-parisien" style="font-family: ariel; font-weight: bolder; letter-spacing: 0.1px; font-size: 125%;">Voyage parisien</a>
+<!-- Right-sided navbar links -->
+<div class="w3-right w3-hide-small">
+  <a href="about.html" class="w3-bar-item w3-button"><i class="fa fa-info"></i> INFORMATION</a>
+  <a href="employees.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> EMPLOYÉS</a>
+  <!-- <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a> -->
+  <a href="pricing.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> FAIRE AUX QUESTIONS</a>
+  <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> MESSAGE</a>
+</div>
+<!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+<a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+  <i class="fa fa-bars"></i>
+</a>
+</div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+<a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">FERMER ×</a>
+<a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">INFORMATION</a>
+<a href="employees.html" onclick="w3_close()" class="w3-bar-item w3-button">EMPLOYÉS</a>
+<!-- <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a> -->
+<a href="pricing.html" onclick="w3_close()" class="w3-bar-item w3-button">FAIRE AUX QUESTIONS</a>
+<a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">MESSAGE</a>
+</nav>
+
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+
+
+</body>
+
+<body>
+  <div class="padding" style="padding-left: 1cm; position: relative; top: 3cm;">
+  <h999 style="font-size: large; font-weight: bold;">Faire aux questions:</h999><br>
+  <h120>"Les billets sont à quel prix?"</h120><br>
+<h121>"Il y a des billets avec réduction?"</h121><br>
+<h122>"Où faut-il acheter les tickets?"</h122><br>
+<h123>"Avec quel moyens de transport pouvez vous utiliser pour y arriver?"</h123><br><br>
+<h21 style="font-size: large; font-weight: bold;">- Croisière sur la Seine</h21><br>
+<p21>Il y a des billets à partir de €18,-.</p21><br>
+<p212>Oui, il y a des billets avec réduction, les billets coûtent €16,-</p212><br>
+<p213>Vous pouvez acheter les billets sur le internet</p213><br>
+<p214>Vous pouvez utiliser cette moyens de transport.</p214><br><br>
+<h22 style="font-size: large; font-weight: bold;">- Entrée au palais et aux jardins de Versailles</h22><br>
+<p22>Il y a des billets à partir de €28,50.</p22><br>
+<p222>Non, il ne y pas des billets avec réduction.</p222><br>
+<p223>Vous pouvez acheter les billets sur le internet ou dans le guichet.</p223><br>
+<p224>Vous pouvez utiliser cette moyens de transport: voiture, bus, vélo et vous pouvons aussi prendre le moto.</p224><br><br>
+<h23 style="font-size: large; font-weight: bold;">- Disneyland Paris</h23><br>
+<p23>Il y a des billets à partir de €56,-.</p23><br>
+<p232>Non, il ne y pas des billets avec réduction.</p232><br>
+<p233>Vous pouvez acheter les billets sur le internet ou dans le guichet devant le parc</p233><br>
+<p234>Vous pouvez utiliser cette moyens de transport: bus,voiture et vélo.</p234><br><br>
+<h24 style="font-size: large; font-weight: bold;">- Billet Opera Garnier</h24><br>
+<p24>Il y a des billets à partir de €14,-.</p24><br>
+<p242>Non, il ne y pas des billets avec réduction.</p242><br>
+<p243>Vous pouvez acheter les billets sur le internet ou dans le guichet dans le bâtiment.</p243><br>
+<p244>Vous pouvez utiliser cette moyens de transport: voiture, bus et vélo.</p244><br><br>
+<h25 style="font-size: large; font-weight: bold;">- Tour de découverte Tootbus</h25><br>
+<p25>Il y a des billets à partir de €43,-.</p25><br>
+<p252>Oui, il y a des billets avec réduction, les billets coûtent €35,70</p252><br>
+<p253>Vous pouvez acheter les billets sur le internet ou dans le guichet dans le bus.</p253><br>
+<p254>Vous pouvez utiliser cette moyens de transport.</p254><br><br>
+<h26 style="font-size: large; font-weight: bold;">- Musée du Louvre</h26><br>
+<p26>Il y a des billets à partir de €17,-.</p26><br>  
+<p262>Non, il ne y pas des billets avec réduction.</p262><br>
+<p263>Vous pouvez acheter les billets sur le internet ou dans le guichet devant le musée.</p263><br>
+<p264>Vous pouvez utiliser cette moyens de transport: voiture, bus, vélo et vous pouvez aussi prendre le bateau.</p264><br><br>
+<h27 style="font-size: large; font-weight: bold;">- Tour Eiffel</h27><br>
+<p27>Il y a des billets à partir de €59,90.</p27><br>
+<p272>Oui, il y a des billets avec réduction, les billets coûtent €29,90.</p272><br>
+<p273>Vous pouvez acheter les billets sur le internet ou dans le guichet sous la Tour Eiffel.</p273><br>
+<p274>Vous pouvez utiliser cette moyens de transport: voiture, bus, vélo et vous pouvez aussi prendre le bateau.</p274><br><br>
+<h28 style="font-size: large; font-weight: bold;">- Musée d'Orsay</h28><br>
+<p28>Il y a des billets à partir de €62,90.</p28><br>
+<p282>Non, il ne y pas des billets avec réduction.</p282><br>
+<p283>Vous pouvez acheter les billets sur le internet ou dans le guichet dans le musée.</p283><br>
+<p284>Vous pouvez utiliser cette moyens de transport: voiture, bus, vélo et moto.</p284><br><br>
+<h29 style="font-size: large; font-weight: bold;">- Arc de Triomphe</h29><br>
+<p29>Il y a des billets à partir de €13,-.</p29><br>
+<p292>Non, il ne y pas des billets avec réduction.</p292><br>
+<p293>Vous pouvez acheter les billets sur le internet ou dans le guichet sous le bâtiment.</p293><br>
+<p294>Vous pouvez utiliser cette moyens de transport: voiture et bus.</p294><br><br>
+<h30 style="font-size: large; font-weight: bold;">- Centre Georges Pompidou</h30><br>
+<p30>Il y a des billets à partir de €15,-.</p30><br>
+<p302>Non, il ne y pas des billets avec réduction.</p302><br>
+<p303>Vous pouvez acheter les billets sur le internet ou dans le guichet dans le bâtiment.</p303><br>
+<p304>Vous pouvez utiliser cette moyens de transport: voiture, bus, vélo et vous pouvons aussi prendre le moto.</p304><br>
+<p998 style="color: white;">-------------------------------------------------------------------------------------------------------------</p998>
+</div>
+
+</body>
+<body>
+  <video width="720cm" height="500cm" controls poster="images/video-abstract.png" class="video">
+    <source src="Paris - L'amour, L'amour (4K) 🇫🇷.mp4" type="video/mp4">
+    Installeer een nieuwere versie van je browser als je deze video wilt bekijken.
+    </video>
+    <style>
+      .video {
+        float: right;
+        position: relative; bottom: 47.5cm;
+        position: relative; right: 1cm;
+      }
+    </style>
+  </body>
+</html>
